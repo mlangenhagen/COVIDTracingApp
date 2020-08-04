@@ -14,14 +14,14 @@ function HomeScreen({ navigation }) {
     <SafeAreaView style={styles.container}>
       <TouchableOpacity
         style={[styles.homeScreenButton, { backgroundColor: "#DDA0DD" }]}
-        onPress={() => navigation.navigate("Health")}
+        onPress={() => navigation.navigate("Maps")}
       >
         <Text style={styles.buttonText}>Record how I'm feeling</Text>
       </TouchableOpacity>
 
       <TouchableOpacity
         style={[styles.homeScreenButton, { backgroundColor: "#AFEEEE" }]}
-        onPress={() => navigation.navigate("Maps")}
+        onPress={() => navigation.navigate("Health")}
       >
         <Text style={styles.buttonText}>Record my location</Text>
       </TouchableOpacity>

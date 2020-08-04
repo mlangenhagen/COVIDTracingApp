@@ -30,15 +30,6 @@ const styles = StyleSheet.create({
     color: "#191970",
     textAlign: "center",
   },
-
-  mapStyle: {
-    marginTop: 10,
-    borderRadius: 10,
-    borderWidth: 1,
-    borderColor: "#fff",
-    width: 360,
-    height: 300,
-  },
 });
 
 export { styles };
